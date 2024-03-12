@@ -1,5 +1,5 @@
 
-channelUniqueName = "testingl";
+channelUniqueName = "";
 counter = 1;
 portalResponse = invokeurl
 [
@@ -9,7 +9,7 @@ portalResponse = invokeurl
 ];
 portalId = portalResponse.get("portals").get(0).get("id");
 // default portal
-projectId = 217431000000035009;
+projectId = "";
 allBugsResponse = invokeurl
 [
 	url :"https://projectsapi.zoho.in/restapi/portal/" + portalId + "/projects/" + projectId + "/bugs/"

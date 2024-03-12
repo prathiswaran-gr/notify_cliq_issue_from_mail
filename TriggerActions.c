@@ -8,12 +8,12 @@ portalResponse = invokeurl
 	connection:"projectxmail"
 ];
 portalId = portalResponse.get("portals").get(0).get("id"); // default portal
-projectId = 217431000000035009;
+projectId = "";
 MYSQL_MASTER_SLOW_QUERIES = text.getOccurenceCount("MYSQL_MASTER_SLOW_QUERIES&");
 MYSQL_HIGH_USER_CONNECTIONS = text.getOccurenceCount("MYSQL_HIGH_USER_CONNECTIONS&");
 PROCESS_DOWN = text.getOccurenceCount("PROCESS_DOWN&");
 // Tags
-SERVER_PERFORMACE_TAG_ID = 217431000000044375;
+SERVER_PERFORMACE_TAG_ID = "";
 
 
 
